@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "notify-php-functions",
+  "version": "0.1",
+  "description": "Sometimes the word what you want to learn is displayed.",
+  "permissions": [
+      "notifications",
+      "http://php.net/"
+  ],
+  "background": {
+      "scripts": ["js/background.js"]
+  }
+}
